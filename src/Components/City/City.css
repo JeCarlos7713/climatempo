@@ -1,0 +1,29 @@
+
+.city-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100%;
+    color: #FFF;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#cityName{
+    font-size: 30px;
+    font-weight: 600;
+}
+#temp{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+#status{
+    text-transform: capitalize;
+}
